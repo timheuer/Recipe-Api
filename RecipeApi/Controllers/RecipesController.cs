@@ -5,6 +5,7 @@ using RecipeApi.ServiceModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace RecipeApi.Controllers
@@ -29,6 +30,8 @@ namespace RecipeApi.Controllers
         [HttpGet(Name = nameof(GetRecipes))]
         public async ValueTask<ActionResult<IEnumerable<Recipe>>> GetRecipes()
         {
+            var osVersion = RuntimeInformation.OSDescription;
+
             var result = await _recipeRepository.GetAsync(x => x.Id != null);
             return new JsonResult(result);
         }
