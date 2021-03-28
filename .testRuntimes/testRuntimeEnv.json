@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Linux dotnet-core-sdk-5.0",
+    "dockerimage": "vsut5"
+  }
+]
