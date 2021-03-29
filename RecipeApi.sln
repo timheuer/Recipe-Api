@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35DA5A47-E87B-42D1-B9B1-ACB75C46F08A}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		Dockerfile-31 = Dockerfile-31
 		.testRuntimes\testRuntimeEnv.json = .testRuntimes\testRuntimeEnv.json
 	EndProjectSection
 EndProject

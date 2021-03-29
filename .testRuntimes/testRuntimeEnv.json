@@ -2,5 +2,9 @@
   {
     "name": "Linux dotnet-core-sdk-5.0",
     "dockerimage": "vsut5"
+  },
+  {
+    "name": "Linux dotnet-core-sdk-3.1",
+    "dockerimage": "vsut31"
   }
 ]
